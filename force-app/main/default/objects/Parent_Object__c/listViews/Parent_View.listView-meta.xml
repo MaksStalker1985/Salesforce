@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_View</fullName>
+    <columns>NAME</columns>
+    <columns>Date_and_time__c</columns>
+    <columns>Size__c</columns>
+    <columns>Sum_value_from_childs__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Parent View</label>
+</ListView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_cargo__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of cargo</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Dry bulk cargoes</fullName>
+                <default>false</default>
+                <label>Dry bulk cargoes</label>
+            </value>
+            <value>
+                <fullName>Containers</fullName>
+                <default>false</default>
+                <label>Containers</label>
+            </value>
+            <value>
+                <fullName>Liquid cargoes</fullName>
+                <default>false</default>
+                <label>Liquid cargoes</label>
+            </value>
+            <value>
+                <fullName>Pallets</fullName>
+                <default>false</default>
+                <label>Pallets</label>
+            </value>
+            <value>
+                <fullName>Cars and trains</fullName>
+                <default>false</default>
+                <label>Cars and trains</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
